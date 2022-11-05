@@ -1,0 +1,113 @@
+﻿body {
+	background-color:#000;
+}
+
+#menu {                   
+	width: 1920px;
+	height:80px;
+}
+
+#navigation {
+	width: 100px;
+	float: left;
+	height: 30px;
+	margin: 30px;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-bottom: 20px;
+	font-family: "Arial";
+	font-size: 20px;
+	text-align: center;
+}
+
+.navigation {
+	background:
+	linear-gradient(
+	to right,
+		rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 1)
+	),
+	linear-gradient(
+		to right,
+		rgba(105, 33, 181, 1),
+		rgba(25, 74, 254, 1)
+	);
+	background-size: 100% 3px, 0 3px;
+	background-position: 100% 100%, 0 100%;
+	background-repeat: no-repeat;
+	transition: background-size 400ms;
+}
+
+.navigation:hover {
+  background-size: 0 3px, 100% 3px;
+}
+
+#footer {
+	width: 1920px;
+	height:80px;
+}
+
+#copyright {
+	width: 480px;
+	float: left;
+	height: 20px;
+	padding: 30px;
+	font-family: "Arial";
+	font-size: 20px;
+	text-align:center;
+	color: #FFFFFF;
+}
+
+#wrapper{
+	width:1920px;
+	margin:0 auto;
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:active {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #FFFFFF;
+}
+
+.block {
+	position: relative;
+	background: #000;
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+				#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(50px);
+}

@@ -1,0 +1,76 @@
+﻿#content {
+	height: 1550px;	
+}
+
+#About_image {
+	/*padding-top:100px;*/
+	height: 1100px;
+	text-align: center;
+}
+
+img {
+	height: 900px;
+	width: 690px;
+	margin-top: 100px;
+}
+
+
+.border {	
+	border-radius: 15px;
+	border: 3px solid;
+    animation: border-pulsate 10s infinite;
+}
+
+@keyframes border-pulsate {
+    0%   { border-color: rgba(255, 0, 0, 0.8); }
+    12.5%   { border-color: rgba(255, 133, 0, 0.8); }
+    25%   { border-color: rgba(250, 255, 0, 0.8); }
+    37.5%   { border-color: rgba(58, 255, 0, 0.8); }
+    50%  { border-color: rgba(0, 255, 128, 0.8); }
+    62.5%   { border-color: rgba(0, 106, 255, 0.8); }
+    75%   { border-color: rgba(5, 0, 255, 0.8); }
+    87.5%   { border-color: rgba(170, 0, 255, 0.8); }
+    100% { border-color: rgba(255, 0, 0, 0.8); }
+}
+
+
+#contacts {
+	width:760px;
+	height:450px;
+	padding-left:200px;
+	float:left;
+	font-family: "Arial";
+	font-size: 45px;
+	color: #FFF;
+}
+
+#contacts_2 {
+	font-size: 20px;
+}
+
+#abouts {
+	width:760px;
+	height:450px;
+	padding-right:200px;
+	float:left;
+	font-family: "Arial";
+	font-size: 45px;
+	color: #FFF;
+	line-height:40px;
+}
+
+#abouts_2 {
+	text-align: justify;
+	font-size: 20px;
+}
+
+.fade-in-text {
+	animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+

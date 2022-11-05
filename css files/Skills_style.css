@@ -1,0 +1,206 @@
+﻿#content {
+	height: 2460px;
+}
+
+#content2 {
+	height: 500px;	
+}
+
+#image1 {
+	height: 400px;
+	width: 750px;
+	margin-top: 100px;
+	margin-left: 200px;
+	float: left;
+}
+
+#text1 {
+	text-align: justify;
+	float:left;
+	font-family: "Arial";
+	font-size: 45px;
+	color: #FFF;
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 200px;
+	width:720px;
+}
+
+#text2 {
+	font-size: 20px;
+}
+
+#content3 {
+	height: 350px;
+}
+
+#badges {
+	margin-top: 100px;
+	height: 150px;
+	width: 150px;
+	float: left;
+	padding-left: 15px;
+	margin-left:100px;
+}
+
+.badges {
+	height: 150px;
+	transition: all .2s ease-in-out; 
+}
+
+.badges:hover {
+	transform: scale(1.2);
+}
+
+#badge_name {
+	float: left;
+	height: 90px;
+	width: 165px;
+	padding-top: 10px;
+	margin-left: 100px;
+	font-family: "Arial";
+	font-size: 15px;
+	text-align:center;
+	color: #FFF;
+}
+
+#content4{
+	height: 400px;
+}
+
+#certs {
+	height: 400px;
+	width: 586px;
+	float: left;
+	margin-left: 25px;
+	color: #FFF;
+}
+
+.certs {
+	width: 586px;
+	height: 400px;
+	border: 3px solid;
+    animation: border-pulsate 10s infinite;
+}
+
+@keyframes border-pulsate {
+    0%   { border-color: rgba(255, 0, 0, 0.8); }
+    12.5%   { border-color: rgba(255, 133, 0, 0.8); }
+    25%   { border-color: rgba(250, 255, 0, 0.8); }
+    37.5%   { border-color: rgba(58, 255, 0, 0.8); }
+    50%  { border-color: rgba(0, 255, 128, 0.8); }
+    62.5%   { border-color: rgba(0, 106, 255, 0.8); }
+    75%   { border-color: rgba(5, 0, 255, 0.8); }
+    87.5%   { border-color: rgba(170, 0, 255, 0.8); }
+    100% { border-color: rgba(255, 0, 0, 0.8); }
+}
+
+
+#content5 {
+	height: 530px;
+}
+
+#text3 {
+	float:left;
+	margin-top: 100px;
+	margin-left: 460px;
+	width:1000px;
+	font-family: "Arial";
+	font-size: 45px;
+	text-align:center;
+	color: #FFF;
+}
+
+#text4 {
+	font-size: 20px;
+	width:300px;
+	height: 46px;
+	margin-left:100px;
+	margin-right:100px;
+	float:left;
+}
+
+#content6 {
+	height: 330px;
+}
+
+#tools {
+	margin-top: 80px;
+	height: 150px;
+	width: 150px;
+	float: left;
+	margin-left:60px;
+}
+
+
+.tools {
+	height: 150px;
+	width: auto;
+	transition: all .2s ease-in-out; 
+}
+
+.tools:hover {
+	transform: scale(1.1);
+}
+
+
+#tool_name {
+	float: left;
+	height: 90px;
+	width: 150px;
+	padding-top: 10px;
+	margin-left: 60px;
+	font-family: "Arial";
+	font-size: 15px;
+	text-align:center;
+	color: #FFF;
+}
+
+#content7 {
+	height: 350px;
+}
+
+#badges2 {
+	height: 250px;
+	width: 250px;
+	margin-left: 100px;
+	float: left;
+}
+
+.badges2 {
+	height: 250px;
+	transition: all .2s ease-in-out; 
+}
+
+.badges2:hover {
+	transform: scale(1.2);
+}
+
+.svg-wrapper {
+	width: 300px;  
+}
+
+.shape {
+	stroke-dasharray: 100 540;
+	stroke-dashoffset: -435;
+	stroke-width: 2px;
+	fill: transparent;
+	stroke: #19f6e8;
+	border-bottom: 5px solid black;
+	transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.text {
+	top: -38px;
+	position: relative;
+}
+
+.svg-wrapper:hover .shape {
+	stroke-dashoffset: 0;
+	stroke-dasharray: 760;
+}
+
+
+
+
+

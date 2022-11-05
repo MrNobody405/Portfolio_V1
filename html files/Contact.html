@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wong Chee Sheng Portfolio</title>
+<link href="../css files/Basics.css" rel="stylesheet"></link>
+<link href="../css files/Contact_style.css" rel="stylesheet"></link>
+<script type="text/javascript" src="../javascipt files/contact_javascript.js"></script>
+
+</head>
+
+<body>
+	<div id="wrapper" class="block">
+		<div id = "menu">   
+			<div id = "navigation" class="navigation"><a href="Homepage.html">HOME</a></div>
+			<div id = "navigation" class="navigation"><a href="About.html">ABOUT</a></div>
+			<div id = "navigation" class="navigation"><a href="Skills.html">SKILLS</a></div>
+			<div id = "navigation" class="navigation"><a href="Work.html">WORK</a></div>
+			<div id = "navigation" class="navigation"><a href="Contact.html"><strong>CONTACT</strong></a></div>
+		</div>
+		
+		<div id="content">		
+			<div id="intro">
+				<div id="text1"><strong>CONTACT ME</strong>
+					<div id="text2">
+						Interested in 
+						my work or fancy in reaching out to me? Send a message using the form below 
+						where replies will be sent to your email very soon! 
+						There are also links to my socials below the form which 
+						you can access by clicking on the icon, thank you!
+					</div>
+				</div>
+			</div>
+			<div id="message">
+				<div class="container">
+					<form name="form" action="form-to-email.php" onsubmit="return false" method="post">
+						<label for="name">Full name</label>
+						<input type="text" id="name" name="name" placeholder=""></input>
+						
+						<label for="lname">Email address</label>
+						<input type="text" id="email" name="email" placeholder=""></input>						
+						
+						<label for="subject">Message</label>
+						<textarea id="message" name="message" placeholder="Leave a message" style="height:200px"></textarea>
+						
+						
+						
+						
+						<input type="submit" value="Submit" onClick="contact(document.form.email)"></input>
+						
+						
+					</form>
+				</div>
+			</div>
+			<div id="socials">
+				<div id="icons" style="margin-left: 740px;">
+					<a href="mailto: abc@example.com"><img alt="Email" src="../images/email.png" class="icons"></img></a>
+				</div>
+				<div id="icons">
+					<a href="https://twitter.com/NobodyWong"><img alt="twitter" src="../images/twitter.png" class="icons"></img></a>
+				</div>
+				<div id="icons">
+					<a href="https://github.com/MrNobody405"><img alt="github" src="../images/github.png" class="icons"></img></a>
+				</div>
+				<div id="icons">
+					<a href="https://www.linkedin.com/in/wongcheesheng/"><img alt="linkedin" src="../images/linkedin.png" class="icons"></img></a>
+				</div>
+				<div id="icons">
+					<a href="https://www.instagram.com/official_mr.nobody/"><img alt="instagram" src="../images/instagram.png" class="icons"></img></a>
+				</div>
+				<div id="icons">
+					<a href="https://www.youtube.com/channel/UCn2ZJlpHToG7EH3CCeuIOBg"><img alt="youtube" src="../images/youtube.png" class="icons"></img></a>
+				</div>	
+			</div>
+		</div>
+		<div id = "footer">   
+			<div id = "copyright">ⓒ Wong Chee Sheng</div>
+		</div>
+	</div>
+</body>
+
+</html>
